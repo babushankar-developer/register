@@ -1,0 +1,102 @@
+{
+  "description": "Babushankar Mathiyazagan - Embedded Software Engineer Portfolio",
+  "repo": "https://babushankar-developer.github.io/myportfolio/",
+  "owner": {
+    "username": "babushankar-developer",
+    "email": "babushankar.offcl@gmail.com"
+  },
+  "record": {
+    "CNAME": "babushankar-developer.github.io"
+  }
+}
+```
+
+6. Click **"Commit new file"**
+
+---
+
+## 🔀 Step 3 — Submit a Pull Request
+
+1. Go back to your forked repo's main page
+2. Click **"Contribute"** → **"Open pull request"**
+3. Click **"Create pull request"**
+4. For the title write:
+```
+Add babushankar.is-a.dev
+```
+5. In the description box, write something like:
+```
+Requesting babushankar.is-a.dev for my embedded engineer portfolio
+hosted at babushankar.github.io
+```
+6. Click **"Create pull request"**
+
+⏳ The is-a.dev team will **review and merge** your PR — usually within **a few hours to 1 day**.
+
+---
+
+## ⚙️ Step 4 — Add CNAME to Your GitHub Pages Repo
+
+While waiting for approval, do this in your **portfolio repo**:
+
+1. Go to your portfolio repo on GitHub
+2. Click **"Add file"** → **"Create new file"**
+3. Name it exactly (no extension):
+```
+CNAME
+```
+4. Inside the file, type only this one line:
+```
+babushankar.is-a.dev
+```
+5. Click **"Commit new file"**
+
+---
+
+## 🌐 Step 5 — Configure GitHub Pages Custom Domain
+
+1. Go to your portfolio repo → **"Settings"**
+2. Click **"Pages"** in the left sidebar
+3. Scroll to **"Custom domain"**
+4. Type: `babushankar.is-a.dev`
+5. Click **"Save"**
+6. ✅ Check **"Enforce HTTPS"** (appears after a few minutes)
+
+---
+
+## ✅ Step 6 — Wait & Test
+
+Once your Pull Request is **merged** by the is-a.dev team:
+
+1. Wait **5–10 minutes** for DNS to propagate
+2. Open your browser and visit:
+```
+https://babushankar.is-a.dev
+```
+🎉 Your portfolio is now live on your custom subdomain!
+
+---
+
+## 🔍 How to Check PR Status
+
+- Go to **[github.com/is-a-dev/register/pulls](https://github.com/is-a-dev/register/pulls)**
+- Search your username to find your PR
+- GitHub will email you when it's merged
+
+---
+
+## 📊 Full Flow Summary
+```
+Fork is-a-dev/register
+        ↓
+Create domains/babushankar.json
+        ↓
+Submit Pull Request
+        ↓
+Add CNAME file to your portfolio repo
+        ↓
+Set custom domain in GitHub Pages settings
+        ↓
+PR gets merged → DNS goes live
+        ↓
+🌐 babushankar.is-a.dev is LIVE!
